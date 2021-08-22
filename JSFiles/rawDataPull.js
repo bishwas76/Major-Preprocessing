@@ -13,7 +13,7 @@ let mongoConnect = () => {
 
 let getFile = (client) => {
   const db = client.db(process.env.dbName);
-  const collection = db.collection(process.env.dbCollection);
+  const collection = db.collection(process.env.dbRawData);
   const result = collection.find({}).toArray();
   return new Promise((resolve, reject) => {
     resolve(result);
@@ -24,7 +24,7 @@ mongoConnect().then((client) => {
   getFile(client)
     .then((value) => {
       fs.writeFile(
-        "../pythonFiles/labels/data.json",
+        "../pythonFiles/labels/sentenceLabels.json",
         JSON.stringify(value),
         (err, done) => {
           if (err) {
