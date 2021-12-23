@@ -6,4 +6,7 @@
 
     Do help us by providing audio recording of Nepali speech using following link.
     Note:- Use Chromium based browsers
-    https://data-collection-major-project.azurewebsites.net/ <br>
+    https://data-collection-major-project.azurewebsites.net/
+
+## Current Progress
+    Audio listening and matching with the labels and gender 80%+ done (with recently added more than 100+ audio datas)
