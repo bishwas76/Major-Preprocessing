@@ -12,7 +12,8 @@
 
 ### 2021/12/24
 
-    Audio listening and matching with the labels and gender 80%+ done (with recently added more than 100+ audio datas)
+    Audio listening and matching with the labels and gender 80%+ done (with recently added more than
+    100+ audio datas)
 
 ### 2021/12/25 (10:58 AM)
 
