@@ -4,7 +4,7 @@ A project on Nepali speech recognition, trying to convert nepali speech into Nep
 
 ## Audio recording site
 
-Do help us by providing audio recording of Nepali speech using following link.
+Do help us by providing audio recording of Nepali speech using following link. <br>
 Note:- Use Chromium based browsers
 https://data-collection-major-project.azurewebsites.net/
 
