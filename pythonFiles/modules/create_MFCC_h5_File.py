@@ -1,5 +1,6 @@
 from modules.mfcc import mfcc
 from modules.audio_file_load import original_signal_process
+import h5py
 
 def create_mfcc_h5_for_dataframe(df, normalized=False):
     count = 0
@@ -17,3 +18,11 @@ def create_mfcc_h5_for_dataframe(df, normalized=False):
         if int(percent_completed) % 2 == 0:
             print('-',end =" ")
     print(']')
+def read_h5_file(title):
+    '''
+        Read data.h5 file. title is the filename of the audio
+    '''
+    h5f = h5py.File('data.h5','r')
+    b = h5f[title][:]
+    h5f.close()
+    return b

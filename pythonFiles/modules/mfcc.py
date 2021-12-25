@@ -44,8 +44,4 @@ class mfcc:
             h5f.create_dataset(unique_id, data=mfcc_features)
             h5f.close()
         return mfcc_features
-    def read_h5_file(self, title):
-        h5f = h5py.File('data.h5','r')
-        b = h5f[title][:]
-        h5f.close()
-        return b
+    
