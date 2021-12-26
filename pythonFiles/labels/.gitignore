@@ -1,4 +1,4 @@
 *.json
 .ipynb_checkpoints
 *.csv
-!final.csv
+!final_fixed.csv
